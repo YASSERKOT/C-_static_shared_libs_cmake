@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -g   CMakeFiles/program.dir/main.cpp.o CMakeFiles/program.dir/client.cpp.o  -o program -rdynamic 

@@ -1,0 +1,3 @@
+/home/yasser/Desktop/cmake/project1/CMakeFiles/edit_cache.dir
+/home/yasser/Desktop/cmake/project1/CMakeFiles/rebuild_cache.dir
+/home/yasser/Desktop/cmake/project1/CMakeFiles/program.dir

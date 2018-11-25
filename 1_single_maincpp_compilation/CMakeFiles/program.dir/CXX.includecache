@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yasser/Desktop/cmake/project1/client.cpp
+client.h
+-
+string
+-
+
+/home/yasser/Desktop/cmake/project1/main.cpp
+iostream
+-
+client.h
+-
+

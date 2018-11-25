@@ -1,0 +1,36 @@
+***************************
+http://derekmolloy.ie/hello-world-introductions-to-cmake/
+***************************
+
+
+
+
+To compile a C++ simple program containing just main.cpp : 
+1/ $ g++ -o program main.cpp
+2/ $ ./program
+
+------
+But the problem is when we have a project containing multiple files:
+1/ We create a project directory:
+$ mkdir project1
+2/ We move "main.cpp" to this aleady created file:
+$ mv main.cpp project1/
+3/ Now, we create a file called "CMakeLists.txt" in the directory:
+$ cd project1
+$ gedit CMakeLists.txt
+4/ Inside this file we type : 
+> cmake_minimum_required(VERSION 3.0)
+>
+> set(CMAKE_BUILD_TYPE) Debug
+> set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+>
+> project(program)
+> 
+> add_executable(
+> 	program
+>	main.cpp
+> )
+5/ We produce the make file by typing this command in the root dir of the project: 
+$ cmake .
+$ make      //To compile this program src code
+$ ./program //To execute this program

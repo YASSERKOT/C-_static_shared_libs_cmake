@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -g   CMakeFiles/testUser.dir/src/User.cpp.o CMakeFiles/testUser.dir/src/main.cpp.o  -o testUser -rdynamic 
